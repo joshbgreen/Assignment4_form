@@ -1,0 +1,44 @@
+body {
+  background-image: url(/Media/forrest.jpg);
+  background-size: cover;
+}
+
+div {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+form {
+  background-color: black;
+  opacity: 0.6;
+}
+
+label {
+  color: white;
+  opacity: 1;
+  padding-left: 2.5%;
+}
+h1 {
+  color: white;
+  opacity: 1;
+  text-align: center;
+}
+h2 {
+  color: white;
+  opacity: 1;
+  text-align: center;
+}
+p {
+  color: white;
+  opacity: 1;
+  text-align: center;
+}
+
+.freetext {
+  width: 90%;
+}
+textarea {
+  width: 90%;
+}

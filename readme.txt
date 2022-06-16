@@ -1,0 +1,2 @@
+I could not get the input boxes to have padding from the form itself
+Also I used opacity on the Form element, which has made all of the text have opacity should i have made a background element then inserted the form over the top?

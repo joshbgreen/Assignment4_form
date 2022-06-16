@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="/Code/surveystylesheet.css" />
+</head>
+<body>
+  <div>
+    <form>
+      <h1>Tree Survey Form</h1>
+      <p>A survey form on the health of the environment</p>
+      <label for="name">Name:</label> <br />
+      <input
+        type="text"
+        id="name"
+        class="freetext"
+        value="Enter your name..."
+      /><br />
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        class="freetext"
+        value="Enter your email address..."
+      /><br />
+      <label for="age">Age(Optional):</label><br />
+      <input type="number" id="age" class="freetext" /><br />
+      <label for="continent">Select Continent of residence </label><br />
+      <select id="continent" class="freetext">
+        <option value="Africa">Africa</option>
+        <option value="Antarctica">Antarctica</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+      <h2>Choose your preferred Gender</h2>
+      <input type="radio" id="Female" name="Gender" value="Female" />
+      <label for="Female"> Female</label><br />
+      <input type="radio" id="Male" name="Gender" value="Male" />
+      <label for="Male"> Male</label><br />
+      <input type="radio" id="Other" name="Gender" value="Other" />
+      <label for="Other"> Other</label><br />
+      <h2>Please select at least one of the options below:</h2>
+      <input type="checkbox" id="Planted" />
+      <label for="Planted">I have planted a tree or any other plant</label
+      ><br />
+      <input type="checkbox" id="Community" />
+      <label for="Community"
+        >I take part in community service for the environment</label
+      ><br />
+      <input type="checkbox" id="plant" />
+      <label for="plant">I promise to plant more from now on</label><br />
+      <h2>Any comments or suggestions</h2>
+      <textarea rows="4" cols="50">Comments/Suggestions...</textarea><br />
+      <button type="button" class="freetext">Submit</button>
+    </form>
+  </div>
+</body>
